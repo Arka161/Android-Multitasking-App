@@ -56,6 +56,9 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
                 try
                 {
                     int Division=Integer.parseInt(num1)/Integer.parseInt(num2);
+                    int Remainder=Integer.parseInt(num1)%parseInt(num2);
+                    
+                    //Remainder variable can be implemented 
                     tvresult.setText(String.valueOf(Division));
                     break;}catch (Exception e){
                     tvresult.setText("Cannot divide");
